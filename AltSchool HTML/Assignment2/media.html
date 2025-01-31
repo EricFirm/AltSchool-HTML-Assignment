@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assets/CSS/styles.css">
+    <title>Media Elements</title>
+  </head>
+  <body>
+    <header class="nav-bar">
+      <nav>
+        <ul>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="table.html">Table</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Audio Element</h2>
+      <audio src="" controls></audio>
+    </section>
+
+    <section>
+      <h2>Video Element</h2>
+      <video src="" controls></video>
+    </section>
+
+    <section>
+      <h2>iFrame Element</h2>
+      <iframe
+        src="https://www.youtube.com/embed/e_McBQoNUwI?si=rkyJ_2avvrv5MM-5"
+        frameborder="0"
+        title="PLBC Sermon Short Clip"
+      ></iframe>
+    </section>
+
+    <section>
+      <h2>Embed Element</h2>
+      <embed
+        src="https://www.youtube.com/embed/A7kZrdsLgJc?si=Yn3xdNyw5MV0aXtT"
+        type=""
+      />
+    </section>
+
+    <section>
+      <h2>Source Element</h2>
+      <video>
+        <source src="" />
+      </video>
+    </section>
+
+    <section>
+        <h2>Track Element</h2>
+        <video controls>
+            <source src="">
+            <track src=""></track> 
+        </video>
+        <!-- this si used for subtitle. you convert your srt to vtt using happyscribe. You input a video and add the track -->
+    </section>
+
+    <section>
+        <h2>Picture Element</h2>
+        <picture> 
+           <source srcset="" media="[max-width: 600px]">
+           <source srcset="" media="[max-width: 900px]">
+           <source srcset="" media="[max-width: 1200px]">
+           <img src="" alt="">
+        </picture>
+    </section>
+  </body>
+</html>

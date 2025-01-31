@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <link rel="stylesheet" href="../Assets/CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Sign Up form</title>
+  </head>
+  <body>
+    <header class="nav-bar">
+      <nav>
+        <ul>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="index.html">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+        <!-- Container Start -->
+        <div class="form-container">
+          <section class="form-right">
+            <img src="../Assets/pictures/alt-pic.jpg" alt="" />
+            <h1>Learn highly sought after skills without hassle.</h1>
+            <div class="social-icons">
+              <a href="https://facebook.com" target="blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://x.com" target="blank"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com" target="blank"><i class="fab fa-linkedin"></i></a>
+             </div>
+            <p>2025 &copy; AltSchool Africa. All rights reserved.</p>
+          </section>
+          <section class="form-left">
+            <!-- Form Wrap Start -->
+          <div class="form-wrap">
+            <section class="heading">
+                <div class="heading-left">
+                    <h2>SignUp</h2>
+                    <p>Take the next steps to apply at AltSchool Africa</p>
+                </div>
+              <div class="heading-right">
+                <h3>Already an AltSchoolar <span>Sign In!</span></h3>
+              </div>
+            </section>
+            <!-- Form start -->
+            <form action="">
+              <div class="form-content">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="firstname" id="first-name" placeholder="First Name" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="lastname" id="last-name" placeholder="Last Name"/>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email"/>
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                  <option value="select-gender">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date">Date of Birth</label>
+                <input type="date" name="date" id="date" placeholder="dd/mm/yyyy"/>
+              </div>
+              <div class="form-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="number" name="phone-number" id="phone-number" placeholder="Phone Number"/>
+              </div>
+              <div class="form-group">
+                <label for="country">Country of Residence</label>
+                <input type="text" name="country" id="country" placeholder="Country of Residence"/>
+              </div>
+              <div class="form-group">
+                <label for="state">State of Residence</label>
+                <input type="text" name="state" id="state" placeholder="Country of Residence"/>
+              </div>
+              <div class="form-group">
+                <label for="passwword">Password</label>
+                <input type="password" name="password" id="password" placeholder="*********" />
+              </div>
+              <div class="form-group">
+                <label for="cpasswword">Confirm Password</label>
+                <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password"/>
+              </div>
+            </div>
+                <div class="form-group">
+                  <label for="survey">How did you hear about us?</label>
+                  <input type="text" name="survey" id="survey" placeholder="Optional: Let us know how you found us"/>
+              <p class="bottom-text">
+                By clicking continue, I agree to <a href="#">Terms of Use</a> and
+                acknowledge that I have read the <a href="#">Privacy Policy</a>.
+              </p>
+              <button type="submit">Signup <span>&rarr;</span></button>
+            </form>
+            <!-- Form close -->
+          </div>
+          <!-- Form Wrap End -->
+        </div>      
+          <!-- Container End -->
+  </body>
+</html>
